@@ -14,21 +14,22 @@
         android:text="REGRESAR AL INICIO"
         app:layout_constraintBottom_toTopOf="@+id/txtbuscar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintHorizontal_bias="0.474"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.222" />
 
     <EditText
         android:id="@+id/txtbuscar"
         android:layout_width="379dp"
         android:layout_height="48dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="8dp"
         android:ems="10"
         android:hint="Buscar"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toTopOf="@+id/scrollView2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintHorizontal_bias="0.406"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ScrollView
@@ -46,8 +47,10 @@
 
             <ListView
                 android:id="@+id/listacontactos"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_width="372dp"
+                android:layout_height="387dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="16dp" />
         </LinearLayout>
     </ScrollView>
 
