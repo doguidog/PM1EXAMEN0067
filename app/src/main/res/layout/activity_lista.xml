@@ -9,42 +9,48 @@
 
     <Button
         android:id="@+id/btnmenu2"
-        android:layout_width="352dp"
+        android:layout_width="323dp"
         android:layout_height="59dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
+        android:layout_marginBottom="4dp"
         android:text="REGRESAR AL INICIO"
         app:layout_constraintBottom_toTopOf="@+id/txtbuscar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.474"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.222" />
+        app:layout_constraintVertical_bias="0.375" />
 
     <EditText
         android:id="@+id/txtbuscar"
-        android:layout_width="379dp"
+        android:layout_width="334dp"
         android:layout_height="48dp"
         android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="8dp"
+        android:background="@color/teal_200"
         android:ems="10"
         android:hint="Buscar"
         android:inputType="textPersonName"
         android:textColor="#000000"
         app:layout_constraintBottom_toTopOf="@+id/scrollView2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.406"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnmenu2" />
 
     <ScrollView
         android:id="@+id/scrollView2"
-        android:layout_width="384dp"
-        android:layout_height="387dp"
+        android:layout_width="363dp"
+        android:layout_height="381dp"
+        android:layout_marginTop="8dp"
         android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
-        tools:layout_editor_absoluteX="13dp">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtbuscar">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -53,10 +59,11 @@
 
             <ListView
                 android:id="@+id/listacontactos"
-                android:layout_width="372dp"
-                android:layout_height="387dp"
+                android:layout_width="352dp"
+                android:layout_height="383dp"
                 android:layout_marginLeft="4dp"
-                android:layout_marginRight="16dp" />
+                android:layout_marginRight="16dp"
+                android:background="@color/teal_200" />
         </LinearLayout>
     </ScrollView>
 

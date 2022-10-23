@@ -9,23 +9,23 @@
 
     <Button
         android:id="@+id/btnmenu3"
-        android:layout_width="352dp"
-        android:layout_height="59dp"
+        android:layout_width="275dp"
+        android:layout_height="61dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="44dp"
         android:layout_marginEnd="32dp"
         android:text="REGRESAR A LA LISTA"
         app:layout_constraintBottom_toTopOf="@+id/txtcodigocontacto"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.542"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.222" />
 
     <EditText
         android:id="@+id/txtcodigocontacto"
-        android:layout_width="350dp"
-        android:layout_height="45dp"
-        android:layout_marginBottom="24dp"
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="12dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
@@ -33,7 +33,7 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toTopOf="@+id/textView8"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="TouchTargetSizeCheck" />
 
@@ -52,16 +52,17 @@
 
     <Spinner
         android:id="@+id/spinnerpaises2"
-        android:layout_width="329dp"
-        android:layout_height="wrap_content"
+        android:layout_width="302dp"
+        android:layout_height="48dp"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
-        android:layout_marginBottom="12dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/teal_200"
         android:backgroundTint="@color/purple_500"
         android:minHeight="48dp"
         app:layout_constraintBottom_toTopOf="@+id/textView9"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.353"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="SpeakableTextPresentCheck" />
 
@@ -84,7 +85,8 @@
         android:layout_height="48dp"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
-        android:layout_marginBottom="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/teal_200"
         android:ems="10"
         android:hint="Escriba su nombre"
         android:inputType="textPersonName"
@@ -92,7 +94,7 @@
         android:textColor="#000000"
         app:layout_constraintBottom_toTopOf="@+id/textView10"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -110,11 +112,12 @@
 
     <EditText
         android:id="@+id/txttelefono2"
-        android:layout_width="329dp"
+        android:layout_width="306dp"
         android:layout_height="48dp"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="8dp"
+        android:background="@color/teal_200"
         android:ems="10"
         android:hint="Escriba su numero de telefono"
         android:inputType="phone"
@@ -122,49 +125,50 @@
         android:textColor="#000000"
         app:layout_constraintBottom_toTopOf="@+id/textView11"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.341"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="16dp"
         android:text="NOTA"
         android:textColor="#000000"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/txtnota2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintHorizontal_bias="0.085"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/txtnota2"
-        android:layout_width="329dp"
-        android:layout_height="92dp"
+        android:layout_width="309dp"
+        android:layout_height="91dp"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="28dp"
+        android:background="@color/teal_200"
         android:ems="10"
         android:hint="Escriba una nota"
         android:inputType="textPersonName"
         android:textColor="#000000"
         app:layout_constraintBottom_toTopOf="@+id/btnactualizarcontacto"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.353"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btnactualizarcontacto"
-        android:layout_width="355dp"
-        android:layout_height="59dp"
+        android:layout_width="284dp"
+        android:layout_height="56dp"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
-        android:layout_marginBottom="60dp"
+        android:layout_marginBottom="52dp"
         android:text="ACTUALIZAR CONTACTO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
