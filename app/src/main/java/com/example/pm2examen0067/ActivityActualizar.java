@@ -54,7 +54,6 @@ public class ActivityActualizar extends AppCompatActivity {
             {
                 String cadena = adapterView.getSelectedItem().toString();
 
-                //Quitar los caracteres del combobox para obtener solo el codigo del pais
                 codigoPaisSeleccionado = Integer.valueOf(extraerNumeros(cadena).toString().replace("]","").replace("[",""));
 
             }
