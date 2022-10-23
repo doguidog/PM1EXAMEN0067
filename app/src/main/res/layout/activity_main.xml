@@ -90,7 +90,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="12dp"
                 android:layout_marginBottom="12dp"
-                android:backgroundTint="#000000"
+                android:backgroundTint="@color/purple_500"
                 tools:ignore="SpeakableTextPresentCheck" />
 
             <TextView
@@ -112,7 +112,8 @@
                 android:ems="10"
                 android:hint="Escriba su nombre"
                 android:inputType="textPersonName"
-                android:minHeight="48dp" />
+                android:minHeight="48dp"
+                android:textColor="#000000" />
 
             <TextView
                 android:id="@+id/textView3"
@@ -133,7 +134,8 @@
                 android:ems="10"
                 android:hint="Escriba su numero de telefono"
                 android:inputType="phone"
-                android:minHeight="48dp" />
+                android:minHeight="48dp"
+                android:textColor="#000000" />
 
             <TextView
                 android:id="@+id/textView4"
@@ -154,7 +156,8 @@
                 android:layout_marginBottom="16dp"
                 android:ems="10"
                 android:hint="Escriba una nota"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:textColor="#000000" />
 
             <Button
                 android:id="@+id/btncontactossalvados"

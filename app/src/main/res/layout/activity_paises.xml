@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".ActivityPaises">
 
     <Button
@@ -69,6 +70,7 @@
         android:hint="Escriba el pais"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:textColor="#000000"
         app:layout_constraintBottom_toTopOf="@+id/textView7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.159"
@@ -82,6 +84,7 @@
         android:ems="10"
         android:hint="Escriba el código de su país"
         android:inputType="number"
+        android:textColor="#000000"
         app:layout_constraintBottom_toTopOf="@+id/btnguardarpais"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.248"
