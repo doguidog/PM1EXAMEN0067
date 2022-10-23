@@ -7,16 +7,32 @@
     tools:context=".ActivityActualizar">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnmenu3"
         android:layout_width="352dp"
         android:layout_height="59dp"
         android:layout_marginTop="44dp"
         android:text="REGRESAR A LA LISTA"
+        app:layout_constraintBottom_toTopOf="@+id/txtcodigocontacto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtcodigocontacto"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="24dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="Name"
+        android:visibility="invisible"
         app:layout_constraintBottom_toTopOf="@+id/textView8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
         android:id="@+id/textView8"
@@ -119,20 +135,20 @@
         android:ems="10"
         android:hint="Escriba una nota"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintBottom_toTopOf="@+id/btnactualizarcontacto"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.353"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnactualizarcontacto"
         android:layout_width="355dp"
         android:layout_height="59dp"
-        android:layout_marginBottom="132dp"
+        android:layout_marginBottom="60dp"
         android:text="ACTUALIZAR CONTACTO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
